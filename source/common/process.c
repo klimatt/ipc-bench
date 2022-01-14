@@ -89,7 +89,7 @@ void start_children(char *prefix, int argc, char *argv[]) {
 	sprintf(
 		server_name,
 		"%s/%s/%s-%s",
-		build_path,
+        "/home/root/source",
 		prefix,
 		prefix,
 		"server"
@@ -98,7 +98,7 @@ void start_children(char *prefix, int argc, char *argv[]) {
 	sprintf(
 		client_name,
 		"%s/%s/%s-%s",
-		build_path,
+        "/home/root/source",
 		prefix,
 		prefix,
 		"client"
