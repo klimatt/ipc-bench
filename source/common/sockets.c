@@ -4,8 +4,8 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-#include "common/sockets.h"
-#include "common/utility.h"
+#include "sockets.h"
+#include "utility.h"
 
 typedef struct timeval timeval;
 

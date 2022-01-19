@@ -1,7 +1,7 @@
-#include "common/parent.h"
-#include "common/arguments.h"
-#include "common/process.h"
-#include "common/signals.h"
+#include "parent.h"
+#include "arguments.h"
+#include "process.h"
+#include "signals.h"
 
 void setup_parent(char* name, int argc, char* argv[]) {
 	if (check_flag("help", argc, argv)) {

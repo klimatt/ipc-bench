@@ -9,7 +9,7 @@
 #include <pthread.h>
 #include <sched.h>
 
-#include "common/utility.h"
+#include "utility.h"
 
 void throw(const char* message) {
 	perror(message);

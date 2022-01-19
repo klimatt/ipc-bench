@@ -48,7 +48,7 @@ void* create_socket(void* context, int use_tcp) {
 	void* socket;
 	const char* address;
 
-	// Create a new zmq socket. Note that this is not necessarily
+	// Create a new zmq_bench socket. Note that this is not necessarily
 	// a socket in the traditional sense, i.e. that performs
 	// network or UNIX-domain I/O. It is just the name ZMQ gives
 	// to any of its "connected nodes". The final transmission
@@ -68,7 +68,7 @@ void* create_socket(void* context, int use_tcp) {
 
 	// Just like for the call to bind() on the server-side,
 	// we now bind (connect) our socket to an address. In
-	// doing so, we also tell zmq the transport medium for
+	// doing so, we also tell zmq_bench the transport medium for
 	// our connection, in this case a TCP port on localhost
 	// with port 6969.
 	if (zmq_connect(socket, address) == -1) {
@@ -81,8 +81,8 @@ void* create_socket(void* context, int use_tcp) {
 void* create_context() {
 	void* context;
 
-	// Create a new zmq context, which is the
-	// main "control unit" for zmq.
+	// Create a new zmq_bench context, which is the
+	// main "control unit" for zmq_bench.
 	if ((context = zmq_ctx_new()) == NULL) {
 		throw("Error creating ZMQ context");
 	}

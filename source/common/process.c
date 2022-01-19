@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-#include "common/utility.h"
+#include "utility.h"
 
 #define BUILD_PATH "/build/source\0"
 

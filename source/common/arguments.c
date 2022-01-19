@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#include "common/arguments.h"
+#include "arguments.h"
 
 #define true 1
 #define false 0

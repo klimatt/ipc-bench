@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#include "common/signals.h"
-#include "common/utility.h"
+#include "signals.h"
+#include "utility.h"
 
 void signal_handler(int signal_number) {
 }

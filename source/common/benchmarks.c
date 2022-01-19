@@ -5,8 +5,8 @@
 #include <sys/time.h>
 #include <time.h>
 
-#include "common/arguments.h"
-#include "common/benchmarks.h"
+#include "arguments.h"
+#include "benchmarks.h"
 
 bench_t now() {
 #ifdef __MACH__
