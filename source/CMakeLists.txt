@@ -46,5 +46,5 @@ if (NOT APPLE)
 endif()
 
 if (ZMQ_FOUND)
-	add_subdirectory(zeromq)
+	#add_subdirectory(zeromq)
 endif()
